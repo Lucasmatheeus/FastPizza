@@ -1,3 +1,4 @@
+
 .pizza {
     display: flex;
     align-items: flex-start;
@@ -152,6 +153,7 @@
     justify-content: center;
     display: flex;
     float: left;
+   
 }
 
 .card img{
@@ -213,7 +215,7 @@
     font-size: 20px;
 }
 
-.botao button{
+.pdt button{
     background-color: #ff7018;
     color: #fff;
     width: 275px;
@@ -222,10 +224,7 @@
     border: none;
     border-radius: 35px;
     font-family: fantasy;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30%;
+   
     
 }
 
@@ -299,7 +298,7 @@
 
 .card5 h1{
     text-align: center;
-    font-size: 21px;
+    font-size: 30px;
     color: #dfdddc;
 }
 
@@ -330,7 +329,7 @@
 
 .card6 h1{
     text-align: center;
-    font-size: 21px;
+    font-size: 25px;
     color: #dfdddc;
 }
 
@@ -340,9 +339,22 @@
     color: #dfdddc;
 }
 
+.imgj{
+    margin-top: -17%;
+}
+
+.imgn{
+    margin-top: -17%;
+}
+
+.imgf{
+    margin-top: -17%;
+}
+
 .rodape{
+    display: flex;
     align-items: flex-start;
-    height: 700px;
+    height: 750px;
     width: 100%;
     justify-content: space-around;
     background-color: #000000;
@@ -351,11 +363,49 @@
 
 .rodape img{ 
     width: 65%;
-    height: 700px;
+    height: 750px;
 }
 
-.rodape h1{
 
-    color: #dfdddc;
-
+.txr{
+    color: #fff;
+    padding: 60px;
+    margin-top: 35px;
+    
 }
+
+.txr h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.txr h2{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.txl{
+    color: #fff;
+    margin-top: 80px;
+    
+}
+
+.txl h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.txa{
+    color: #fff;
+    margin-top: 80px;
+}
+
+.txa h2{
+    font-size: 18px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
